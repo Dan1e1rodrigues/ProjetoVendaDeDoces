@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doces Deliciosos</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Inclua os links para as bibliotecas Bootstrap CSS e JavaScript -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>Doces Deliciosos</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Produtos</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="carousel-section">
+        <div id="product-carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicadores do Carrossel -->
+            <ul class="carousel-indicators">
+                <li data-target="#product-carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#product-carousel" data-slide-to="1"></li>
+                <li data-target="#product-carousel" data-slide-to="2"></li>
+            </ul>
+    
+            <!-- Slides do Carrossel -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="doce1.jpg" alt="Doce 1">
+                    <div class="carousel-caption">
+                        <h3>Doce de Chocolate</h3>
+                        <p>Um doce de chocolate delicioso.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="doce2.jpg" alt="Doce 2">
+                    <div class="carousel-caption">
+                        <h3>Doce de Morango</h3>
+                        <p>Um doce de morango fresquinho.</p>
+                    </div>
+                </div>
+                <!-- Adicione mais slides aqui -->
+            </div>
+    
+            <!-- Controles do Carrossel -->
+            <a class="carousel-control-prev" href="#product-carousel" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#product-carousel" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <section class="products">
+        <article class="product">
+            <img src="doce1.jpg" alt="Doce 1">
+            <h2>Doce de Chocolate</h2>
+            <p>Um doce de chocolate delicioso.</p>
+            <span class="price">R$ 5,00</span>
+            <button class="buy-button">Comprar</button>
+        </article>
+        
+        <article class="product">
+            <img src="doce2.jpg" alt="Doce 2">
+            <h2>Doce de Morango</h2>
+            <p>Um doce de morango fresquinho.</p>
+            <span class="price">R$ 4,00</span>
+            <button class="buy-button">Comprar</button>
+        </article>
+
+        <!-- Adicione mais produtos aqui -->
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Doces Deliciosos</p>
+    </footer>
+</body>
+</html>
