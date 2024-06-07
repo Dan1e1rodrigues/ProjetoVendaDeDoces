@@ -6,7 +6,7 @@
     <title>docinhosdesaojose</title>
     <link rel="stylesheet" href="css/styles.css">
     <!-- Icone na pagina -->
-    <link rel="icon" href="img/logo/Black & White Minimalist Aesthetic Initials Font Logo.jpg" type="image/png">
+    <link rel="icon" href="images/logo/Black & White Minimalist Aesthetic Initials Font Logo.jpg" type="image/png">
 
     <!-- Inclua os links para as bibliotecas Bootstrap CSS e JavaScript -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -47,14 +47,14 @@
             <!-- Slides do Carrossel -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="img/bolo-de-pote-0.jpg" alt="Doce 1">
+                    <img src="images/bolo-de-pote-0.jpg" alt="Doce 1">
                     <div class="carousel-caption">
                         <h3>Bolo de Pote</h3>
                         <p>O melhor de toda região</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="img/Fabiana-Dangelo.foto-Divulgação.jpeg.webp" alt="Doce 2">
+                    <im src="images/Fabiana-Dangelo.foto-Divulgação.jpeg.webp" alt="Doce 2">
                     <div class="carousel-caption">
                         <h3>Cones de prestigio e chocolate</h3>
                         <p>Os melhores</p>
@@ -75,7 +75,7 @@
 
     <section class="products">
         <article class="product">
-            <img src="img/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" alt="Doce 1">
+            <img src="images/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" alt="Doce 1">
             <h2>Doce de Chocolate</h2>
             <p>Um doce de chocolate delicioso.</p>
             <span class="price">R$ 5,00</span>
@@ -83,7 +83,7 @@
         </article>
 
         <article class="product">
-            <img src="img/Torta de Limão Trufada.jpeg" alt="Doce 1">
+            <img src="images/Torta de Limão Trufada.jpeg" alt="Doce 1">
             <h2>Doce de Chocolate</h2>
             <p>Um doce de chocolate delicioso.</p>
             <span class="price">R$ 15,00</span>
@@ -91,7 +91,7 @@
         </article>
 
         <article class="product">
-            <img src="img/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" alt="Doce 1">
+            <img src="images/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" alt="Doce 1">
             <h2>Doce de Chocolate</h2>
             <p>Um doce de chocolate delicioso.</p>
             <span class="price">R$ 5,00</span>
@@ -107,7 +107,7 @@
         </article> -->
 
         <article class="product">
-            <img src="img/Torta de Limão Trufada.jpeg" alt="Doce 1">
+            <img src="images/Torta de Limão Trufada.jpeg" alt="Doce 1">
             <h2>Doce de Chocolate</h2>
             <p>Um doce de chocolate delicioso.</p>
             <span class="price">R$ 15,00</span>
