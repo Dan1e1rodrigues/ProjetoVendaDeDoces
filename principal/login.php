@@ -33,7 +33,7 @@
           </p>
            
           <p> 
-            <label for="senha">Seu e-mail</label>
+            <label for="senha">Sua Senha</label>
             <input id="senha" name="senha" required="required" type="password" placeholder="Digite sua senha" /> 
           </p>
            
