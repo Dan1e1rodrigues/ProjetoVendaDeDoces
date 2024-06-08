@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/login_cad.css">
     <!-- Icone na pagina -->
     <link rel="icon" href="images/logo/Black & White Minimalist Aesthetic Initials Font Logo.jpg" type="image/png">
 
@@ -21,6 +21,29 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
 </head>
 <body>
-    
-</body>
+
+<div class="container" >  
+    <div class="content">      
+      <div id="login">
+        <form method="post" action=""> 
+          <h1>Seja bem-vindo!</h1> 
+          <p> 
+            <label for="emal">Seu Email</label>
+            <input id="email" name="email" required="required" type="email" placeholder="Digite seu email"/>
+          </p>
+           
+          <p> 
+            <label for="senha">Seu e-mail</label>
+            <input id="senha" name="senha" required="required" type="password" placeholder="Digite sua senha" /> 
+          </p>
+           
+         
+          <p> 
+            <input type="submit" value="Logar" /> 
+          </p>
+
+        </form>
+      </div>
+
+    </body>
 </html>

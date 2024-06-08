@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #85a573 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 550px;
+    margin: 0px auto;
+    position:relative; 
+    
+    
+}
+
+h1{
+    font-size: 48px;
+    color: #ffe7a7;
+    padding: 10px 0;
+    font-family: Arial,sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+  }
+
+  p{
+    margin-bottom:15px;
+  }
+   
+  
+  label{
+    color: #ffe7a7;
+    position: relative;
+  }
+
+  input {
+    outline: none;
+  }
+   
+  input:not([type="checkbox"]){
+    width: 95%;
+    margin-top: 4px;
+    padding: 10px;    
+    border: 1px solid #b2b2b2;
+   
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+   
+    -webkit-box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+    box-shadow: 0px 1px 4px 0px rgba(168, 168, 168, 0.6) inset;
+   
+    -webkit-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+  }
+
+  input[type="submit"]{
+    width: 100%!important;
+    cursor: pointer;  
+    background: #b88601;
+    padding: 8px 5px;
+    color: #fff;
+    font-size: 20px;  
+    border: 1px solid #fff;   
+    margin-bottom: 10px;  
+    text-shadow: 0 1px 1px #333;
+   
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+   
+    transition: all 0.2s linear;
+  }
+   
+  
+  input[type="submit"]:hover{
+    background: #ad9143;
+  }
+
+  #login{
+    position: absolute;
+    top: 0px;
+    width: 88%;   
+    padding: 18px 6% 60px 6%;
+    margin: 0 0 35px 0;
+    background-image: linear-gradient(#72421c,#3a2303);
+    border: 1px solid rgba(147, 184, 189,0.8);
+     
+    -webkit-box-shadow: 5px;
+    border-radius: 5px;
+     
+    -webkit-animation-duration: 0.5s;
+    -webkit-animation-timing-function: ease;
+    -webkit-animation-fill-mode: both;
+   
+    animation-duration: 0.5s;
+    animation-timing-function: ease;
+    animation-fill-mode: both;
+  }
