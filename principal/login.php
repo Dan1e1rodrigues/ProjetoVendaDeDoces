@@ -1,49 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-<meta charset="UTF-8">
+    <!-- Configurações principais da página -->
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/login_cad.css">
-    <!-- Icone na pagina -->
-    <link rel="icon" href="images/logo/Black & White Minimalist Aesthetic Initials Font Logo.jpg" type="image/png">
-
-    <!-- Inclua os links para as bibliotecas Bootstrap CSS e JavaScript -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-    <!-- Fonte -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
-    <!-- Link do bootsrap do zap -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.css">
+    <!-- Link para o arquivo CSS -->
+    <link rel="stylesheet" href="css/login.css">
+    <!-- Título da página -->
+    <title>Login de Usuario</title>
 </head>
+
 <body>
+    <!-- Container principal -->
+    <div class="container">
+        <!-- Seção da imagem no formulário -->
+        <div class="form-image">
+            <img src="images/undraw_cooking_p7m1.svg" alt="">
+        </div>
+        <!-- Seção do formulário -->
+        <div class="form">
+            <!-- Formulário --> 
+            <form action="#">
+                <!-- Cabeçalho do formulário -->
+                <div class="form-header">
+                    <!-- Título do formulário -->
+                    <div class="title">
+                        <h1>Login</h1>
+                    </div>
+                    <!-- Botão de login -->
+                    <div class="login-button">
+                        <button><a href="#">Entrar</a></button>
+                    </div>
+                </div>
 
-<div class="container" >  
-    <div class="content">      
-      <div id="login">
-        <form method="post" action=""> 
-          <h1>Seja bem-vindo!</h1> 
-          <p> 
-            <label for="emal">Seu Email</label>
-            <input id="email" name="email" required="required" type="email" placeholder="Digite seu email"/>
-          </p>
-           
-          <p> 
-            <label for="senha">Sua Senha</label>
-            <input id="senha" name="senha" required="required" type="password" placeholder="Digite sua senha" /> 
-          </p>
-           
-         
-          <p> 
-            <input type="submit" value="Logar" /> 
-          </p>
+                <!-- Grupo de inputs do formulário -->
+                <div class="input-group">
+                    <!-- Campo de input para o primeiro nome -->
+                    <div class="input-box">
+                        <label for="firstname">Primeiro Nome</label>
+                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                    </div>
 
-        </form>
-      </div>
+                    <!-- Campo de input para o sobrenome -->
+                    <div class="input-box">
+                        <label for="lastname">Sobrenome</label>
+                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                    </div>
+                
+                    
+                </div>
 
-    </body>
+                <!-- Botão de continuar -->
+                <div class="continue-button">
+                    <button><a href="#">Continuar</a></button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
 </html>
