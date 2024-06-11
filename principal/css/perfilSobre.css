@@ -1,0 +1,168 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header .logo img {
+    height: 50px;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+header .header-buttons {
+    display: flex;
+    align-items: center;
+}
+
+header .header-buttons a {
+    margin-left: 10px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+}
+
+.meu-retangulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #F8F8F8;
+    border: 1px solid #DDD;
+}
+
+.meu-retangulo .imagem-container {
+    margin-right: 20px;
+}
+
+.meu-retangulo .texto-container p {
+    margin: 10px 0;
+}
+
+.centered-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    background-color: #FFF;
+}
+
+.centered-container .content {
+    max-width: 600px;
+}
+
+.profile-image {
+    max-width: 150px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.yellow-button {
+    background-color: #F87509;
+}
+
+.linkedin-button {
+    background-color: #0073b1;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.yellow-line {
+    width: 50px;
+    height: 5px;
+    background-color: #F87509;
+    margin: 10px auto;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.card {
+    background-color: #FFF;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.card-header {
+    height: 100px;
+    background-color: #F8F8F8;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 10px;
+}
+
+.card-body {
+    text-align: center;
+}
+
+.card-body img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.contact-info {
+    max-width: 200px;
+}
+
+.footer-logo img {
+    height: 50px;
+    margin-bottom: 10px;
+}
