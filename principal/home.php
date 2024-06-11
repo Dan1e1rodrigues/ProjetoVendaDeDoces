@@ -31,8 +31,11 @@
                 <li><a href="#">Contato</a></li>
                 <!-- <li><a href="#">Sobre nós</a></li>
                 <li><a href="#">Paroquia Santa Inês</a></li> -->
+                <li><a href="">LOGIN</a></li>
+                <li><a href="">cadastro</a></li>
             </ul>
         </nav>
+
     </header>
 
     <section class="carousel-section">
