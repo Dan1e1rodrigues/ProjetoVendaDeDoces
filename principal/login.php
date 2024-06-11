@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Link para o arquivo CSS -->
-    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="css/login_cd.css">
     <!-- Título da página -->
     <title>Login de Usuario</title>
 </head>
@@ -15,7 +15,7 @@
     <div class="container">
         <!-- Seção da imagem no formulário -->
         <div class="form-image">
-            <img src="images/undraw_cooking_p7m1.svg" alt="">
+            <img src="images/undraw_male_avatar_g98d (1).svg" alt="">
         </div>
         <!-- Seção do formulário -->
         <div class="form">
@@ -25,26 +25,26 @@
                 <div class="form-header">
                     <!-- Título do formulário -->
                     <div class="title">
-                        <h1>Login</h1>
+                        <h1>Faça seu Login ou</h1>
                     </div>
                     <!-- Botão de login -->
                     <div class="login-button">
-                        <button><a href="#">Entrar</a></button>
+                        <button><a href="/ProjetoVendaDeDoces/principal/register.php">Cadastre-se</a></button>
                     </div>
                 </div>
 
                 <!-- Grupo de inputs do formulário -->
                 <div class="input-group">
-                    <!-- Campo de input para o primeiro nome -->
+                    <!-- Campo de input para o e-mail -->
                     <div class="input-box">
-                        <label for="firstname">Primeiro Nome</label>
-                        <input id="firstname" type="text" name="firstname" placeholder="Digite seu primeiro nome" required>
+                        <label for="email">Login</label>
+                        <input id="email" type="email" name="email" placeholder="Digite seu e-mail" required>
                     </div>
 
-                    <!-- Campo de input para o sobrenome -->
+                    <!-- Campo de input para senha -->
                     <div class="input-box">
-                        <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="text" name="lastname" placeholder="Digite seu sobrenome" required>
+                        <label for="password">Senha</label>
+                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                     </div>
                 
                     

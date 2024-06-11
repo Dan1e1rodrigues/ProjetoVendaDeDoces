@@ -54,7 +54,7 @@ body {
 
 /* Cabeçalho do formulário */
 .form-header {
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -70,7 +70,7 @@ body {
     border: none;
     background-color: #b88601;
     padding: 0.4rem 1rem;
-    border-radius: 5px;
+    border-radius: 20px;
     cursor: pointer;
 }
 
