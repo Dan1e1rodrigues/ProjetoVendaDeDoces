@@ -25,11 +25,11 @@
                 <div class="form-header">
                     <!-- Título do formulário -->
                     <div class="title">
-                        <h1>Cadastre-se</h1>
+                        <h1>Cadastre-se ou faça seu </h1>
                     </div>
                     <!-- Botão de login -->
                     <div class="login-button">
-                        <button><a href="#">Entrar</a></button>
+                        <button><a href="/ProjetoVendaDeDoces/principal/login.php">Login</a></button>
                     </div>
                 </div>
 
