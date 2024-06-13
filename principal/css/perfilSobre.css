@@ -1,223 +1,90 @@
-/* Estilos globais */
-body {
-    font-family: Nunito, Roboto, Playfair Display, sans-serif;
-    background-color: #fff;
+
+*{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-#logo {
-    max-width: 100px;
-    height: auto;
-    padding: 10px;
+html{
+    height: 500vh;
+    background-color: #000;
 }
 
-header {
-    background-color: #2e492a;
-    color: #fff;
-    padding: 10px 0;
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
 }
 
-header nav {
-    display: flex;
-    align-items: center;
+header{
+    width: 100%;
+    padding: 60px 4%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    transition: .5s;
 }
 
-header nav a {
+header.rolagem{
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i{
+    color: #FE775A;
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
     color: #fff;
     text-decoration: none;
-    margin-right: 20px;
 }
 
-.header-buttons {
-    display: flex;
-    align-items: center;
-}
-
-.contact-button {
-    background-color: #FDC435;
-    color: #fff;
-    padding: 10px 20px;
-    border: solid;
-    border-radius: 10px;
-    cursor: pointer;
-    font-size: 14px;
-    margin-right: 10px;
-}
-
-.logo-redonda {
-    width: 40px;
+.btn-contato button{
+    width: 120px;
     height: 40px;
-    border-radius: 50%;
-    margin-right: 10px;
+    border: 0;
+    background-color: #FE775A;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
+.banner{
+    height: 100vh;
+    background-image: url(../images//bannerH1.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
 
-button {
-    margin: 10px;
-}
-
-.meu-retangulo {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin: 20px;
-    padding: 20px;
-    background-color: #2e492a;
-    border: 1px solid #ffffff;
-}
-
-.imagem-container {
-    flex: 1;
-    margin-right: 20px;
-}
-
-.imagem-container img {
-    max-width: 60%;
-    height: auto;
-}
-
-.texto-container {
-    flex: 1;
-    color: #fff;
-}
-
-.texto-container h2 {
-    margin: 0;
-}
-
-.centered-container {
-    display: flex;
     justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
 }
 
-.centered-container .content {
-    flex: 1;
-    margin-right: 20px;
+.banner h1{
+    font-size: 4em;
 }
 
-.centered-container img {
-    width: 100%;
-    max-width: 300px;
-    border-radius: 10px;
-}
-
-.text-center {
-    text-align: center;
-}
-
-.title {
-    font-size: 2em;
-    margin: 20px 0;
-    color: #000;
-}
-
-.yellow-line {
-    height: 4px;
-    background-color: #FDC435;
-    margin: 0 auto 20px;
-    width: 80px;
-}
-
-.card-container {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-    margin: 40px 0;
-}
-
-.card {
-    background-color: #fff;
-    border: 1px solid #DDD;
-    border-radius: 10px;
-    overflow: hidden;
-    max-width: 48%;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
-
-.card-body {
-    padding: 20px;
-}
-
-.card img {
-    width: 100%;
-    height: auto;
-    border-bottom: 1px solid #DDD;
-}
-
-.card h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
-.highlight {
-    color: #FDC435;
-}
-
-.main-footer {
-    background-color: #2e492a;
-    color: #fff;
-    padding: 40px 0;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 20px;
-}
-
-.footer-title {
-    font-size: 1.5em;
-    margin-bottom: 20px;
-}
-
-.about-institution, .contact-info, .social-media {
-    flex: 1;
-    min-width: 200px;
-}
-
-.about-institution img {
-    width: 100px;
-    height: auto;
-    margin-bottom: 20px;
-}
-
-.about-text {
-    font-size: 1em;
-    line-height: 1.5;
-}
-
-.contact-info ul, .social-media ul {
-    list-style: none;
-    padding: 0;
-}
-
-.contact-info li, .social-media li {
-    margin-bottom: 20px;
-}
-
-.social-icons {
-    display: flex;
-    gap: 10px;
-}
-
-.social-icons li {
-    display: inline-block;
-}
-
-.social-icons a {
-    color: #fff;
-    font-size: 1.2em;
+.banner h1 span{
+    color: #FFAE81;
 }
