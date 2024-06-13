@@ -14,19 +14,26 @@
 
             <div class="flex">
 
-                <a href="#"><i class="bi bi-globe-americas"></i></a>
+                <a href="#"><i class="bi bi-cart"></i></a>
 
                 <nav>
                     <ul>
-                        <li><a href="#">MEUS PRODUTOS</a></li>
+                        <li><a href="#" style="color: #b88601;">VAMOS AS COMPRAS</a></li>
+                        <li><a href="#">NOVIDADES</a></li>
                         <li><a href="#">REDES SOCIAIS</a></li>
-                        <li><a href="#">FAÇA SEU PEDIDO</a></li>
                         <li><a href="#">BLOG</a></li>
+                        <!-- Possibilidade de adicionar mais um sem quebrar -->
                     </ul>
                 </nav>
 
+                <!-- Botão Login -->
                 <div class="btn-contato">
-                    <a href="/ProjetoVendaDeDoces/principal/"><button>VAMOS PARA LOJA</button></a>
+                    <a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/login.php'); ?>"><button>LOGIN</button></a>
+                </div>
+
+                <!-- Botão Cadastro -->
+                <div class="btn-contato">
+                    <a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/register.php'); ?>"><button>CADASTRO</button></a>
                 </div>
 
             </div><!--flex-->
@@ -35,10 +42,15 @@
     </header>
 
     <section class="banner">
-        <!-- <h1>DESCUBRA UM <span>NOVO MUNDO</span></h1> -->
+        <h1>UM POUCO DA MINHA<span>HISTORIA</span></h1>
     </section>
 
-    <h1>motivos</h1>
+    <!--  -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
     <script src="menu.js"></script>
 </body>

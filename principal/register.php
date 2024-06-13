@@ -29,7 +29,7 @@
                     </div>
                     <!-- Botão de login -->
                     <div class="login-button">
-                        <button><a href="/ProjetoVendaDeDoces/principal/login.php">Login</a></button>
+                        <button><a href="">Login</a></button>
                     </div>
                 </div>
 

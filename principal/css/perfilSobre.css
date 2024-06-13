@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -63,15 +62,17 @@ header ul li a{
     width: 120px;
     height: 40px;
     border: 0;
-    background-color: #FE775A;
+    background-color: #b88601;
     color: #fff;
+    font-size: 15px;
     cursor: pointer;
     transition: .2s;
+    border-radius: 15px 50px 30px;
 }
 
 .banner{
     height: 100vh;
-    background-image: url(../images//bannerH1.jpg);
+    background-image: url(../images/bannerCorSimplesVerdeEscuro.jpg);
     background-position: 100% 0;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,3 +89,24 @@ header ul li a{
 .banner h1 span{
     color: #FFAE81;
 }
+
+/* Sobre historia card */
+.sobreHistoria{
+    color: #fff;
+}
+
+/* Estilização do Footer */
+footer {
+    background-color: #000000;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer p {
+    margin: 0;
+}
+/* Fim footer */
