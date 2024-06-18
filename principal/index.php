@@ -22,18 +22,8 @@
 
 </head>
 <body>
-    <header>
-        <h1>docinhosdesaojose</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Produtos</a></li>
-                <li><a href="#">Contato</a></li>
-                <!-- <li><a href="#">Sobre nós</a></li>
-                <li><a href="#">Paroquia Santa Inês</a></li> -->
-            </ul>
-        </nav>
-    </header>
+    
+    <?php include 'header.php'; ?>
 
     <section class="carousel-section">
         <div id="product-carousel" class="carousel slide" data-ride="carousel">
@@ -123,8 +113,7 @@
         <i class="fab fa-whatsapp"></i> 
       </a>
 
-    <footer>
-        <p>&copy; 2023 docinhosdesaojose</p>
-    </footer>
+    <?php include 'footer.php'; ?>
+    
 </body>
 </html>

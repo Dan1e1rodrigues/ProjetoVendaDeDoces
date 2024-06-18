@@ -6,18 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Um pouco da Minha Historia</title>
-    <link rel="stylesheet" href="./css/perfilSobre.css">
+    <link rel="stylesheet" href="./css/headerFooter.css">
 </head>
 <body>
-    
-    <?php include 'header.php'; ?>
 
-    <section class="banner">
-        <h1>UM POUCO DA MINHA<span>HISTORIA</span></h1>
-    </section>
+    <!-- Footer da pagina -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 - Todos os direitos reservados.</p>
+        </div>
+    </footer>
 
-    <?php include 'footer.php'; ?>
-
-    <script src="menu.js"></script>
 </body>
 </html>
