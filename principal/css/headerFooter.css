@@ -6,8 +6,9 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Largura final da pagina */
 html{
-    height: 500vh;
+    height: 200vh;
     background-color: #000000;
 }
 
@@ -28,7 +29,7 @@ header{
     width: 100%;
     padding: 20px 10%;
     background-color: #2e492a;
-    position: fixed;
+    /* position: fixed; */
     top: 0px;
     left: 0;
     transition: .5s;
@@ -57,6 +58,12 @@ header ul li{
     margin: 0 40px;
 }
 
+/* Problemas para formataro tamanho da margem, diminui o margin-bottom */
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
 header ul li a{
     color: #fff;
     text-decoration: none;
@@ -80,7 +87,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 20px 0;
-    position: fixed;
+    /* position: fixed; */
     width: 100%;
     bottom: 0;
 }

@@ -26,6 +26,7 @@
                     </ul>
                 </nav>
 
+                <!-- Caminho com as nomas de php -->
                 <!-- Botão Login -->
                 <div class="btn-contato">
                     <a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/login.php'); ?>"><button>LOGIN</button></a>
