@@ -1,10 +1,24 @@
+<?php
+session_start();
+print_r($_SESSION);
+
+    if((!isset($_SESSION['email']) == true) and (!isset($_SESSION['senha']) == true))
+    {
+        unset($_SESSION['email']);
+        unset($_SESSION['senha'] );
+        header('Location: login.php');
+    }
+    $logado = $_SESSION['email'];
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>docinhosdesaojose</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/styles.css">
     <!-- Icone na pagina -->
     <link rel="icon" href="img/logo/Black & White Minimalist Aesthetic Initials Font Logo.jpg" type="image/png">
 
@@ -31,7 +45,7 @@
                 <li><a href="#">Contato</a></li>
                 <!-- <li><a href="#">Sobre nós</a></li>
                 <li><a href="#">Paroquia Santa Inês</a></li> -->
-                <li><a href="">LOGIN</a></li>
+                <li><a href="../config/logout.php">LOGIN</a></li>
                 <li><a href="">cadastro</a></li>
             </ul>
         </nav>
