@@ -1,3 +1,25 @@
+<?php
+
+if(isset($_POST['submit']))
+{
+
+    include_once("../config/config.php");
+
+
+    $fisrtname = $_POST['firstname'];
+    $lastname = $_POST['lastname'];
+    $email = $_POST['email'];
+    $number = $_POST['number'];
+    $password = $_POST['password'];
+    $gender = $_POST['gender'];
+
+    $result = mysqli_query($conexão, "INSERT INTO usuários(Nome, Sobrenome, Genero, Email, Senha, Telefone ) VALUES ('$fisrtname', '$lastname', '$gender', '$email', '$password', '$number')");
+
+}
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
@@ -20,7 +42,7 @@
         <!-- Seção do formulário -->
         <div class="form">
             <!-- Formulário -->
-            <form action="#">
+            <form action="register.php" method="POST">
                 <!-- Cabeçalho do formulário -->
                 <div class="form-header">
                     <!-- Título do formulário -->
@@ -83,25 +105,25 @@
                     <div class="gender-group">
                         <!-- Opção de gênero feminino -->
                         <div class="gender-input">
-                            <input id="female" type="radio" name="gender">
+                            <input id="female" type="radio" name="gender" value="Feminino">
                             <label for="female">Feminino</label>
                         </div>
 
                         <!-- Opção de gênero masculino -->
                         <div class="gender-input">
-                            <input id="male" type="radio" name="gender">
+                            <input id="male" type="radio" name="gender" value="Masculino">
                             <label for="male">Masculino</label>
                         </div>
 
                         <!-- Opção de gênero outros -->
                         <div class="gender-input">
-                            <input id="others" type="radio" name="gender">
+                            <input id="others" type="radio" name="gender" value="Outro">
                             <label for="others">Outros</label>
                         </div>
 
                         <!-- Opção de gênero prefiro não dizer -->
                         <div class="gender-input">
-                            <input id="none" type="radio" name="gender">
+                            <input id="none" type="radio" name="gender" value="Prefiro não dizer">
                             <label for="none">Prefiro não dizer</label>
                         </div>
                     </div>
@@ -109,7 +131,7 @@
 
                 <!-- Botão de continuar -->
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <input type="submit" value="Continuar" name="submit">
                 </div>
             </form>
         </div>

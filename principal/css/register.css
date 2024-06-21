@@ -175,7 +175,7 @@ body {
 }
 
 /* Botão de continuar */
-.continue-button button {
+.continue-button input[type= "submit"] {
     width: 100%;
     margin-top: 2.5rem;
     border: none;
@@ -183,10 +183,11 @@ body {
     padding: 0.62rem;
     border-radius: 5px;
     cursor: pointer;
+    color: #fff;
 }
 
 /* Efeito ao passar o mouse no botão de continuar */
-.continue-button button:hover {
+.continue-button input[type= "submit"]:hover {
     background-color: #e7af14;
 }
 
