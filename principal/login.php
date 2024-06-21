@@ -20,7 +20,7 @@
         <!-- Seção do formulário -->
         <div class="form">
             <!-- Formulário --> 
-            <form action="#">
+            <form action="../config/test.php" method="POST">
                 <!-- Cabeçalho do formulário -->
                 <div class="form-header">
                     <!-- Título do formulário -->
@@ -49,10 +49,18 @@
                 
                     
                 </div>
+                
+                <!-- Messagem de erro -->
+                <?php
+
+                if (isset($_GET['error']) && $_GET['error'] === 'invalid_credentials') {
+                    echo '<p class="error-message">E-mail ou senha incorretos.</p>';
+                }
+                ?>
 
                 <!-- Botão de continuar -->
                 <div class="continue-button">
-                    <button><a href="#">Continuar</a></button>
+                    <input type="submit" value="Continuar" name="submit">
                 </div>
             </form>
         </div>

@@ -11,9 +11,26 @@ if(isset($_POST['submit']))
     $email = $_POST['email'];
     $number = $_POST['number'];
     $password = $_POST['password'];
+    $confirmedpassword = $_POST['confirmPassword']; 
     $gender = $_POST['gender'];
 
-    $result = mysqli_query($conexão, "INSERT INTO usuários(Nome, Sobrenome, Genero, Email, Senha, Telefone ) VALUES ('$fisrtname', '$lastname', '$gender', '$email', '$password', '$number')");
+    if($password !== $confirmedpassword){
+        header('Location: register.php?error=password_mismatch');
+        exit;
+    }
+
+    $hashed_password = password_hash($password, PASSWORD_DEFAULT);
+
+    $result = mysqli_query($conexão, "INSERT INTO usuários(Nome, Sobrenome, Genero, Email, Senha, Telefone ) VALUES ('$fisrtname', '$lastname', '$gender', '$email', '$hashed_password', '$number')");
+
+    if($result){
+        header('Location: login.php?registration=success');
+        exit;
+    }
+    else{
+        header('Location: register.php?error=registration_failed');
+        exit;
+    }
 
 }
 
