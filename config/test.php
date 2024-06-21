@@ -22,7 +22,7 @@ session_start();
             if(password_verify($senha, $row['Senha'])) 
             {
                 $_SESSION['email'] = $email;
-                header('Location: ../principal/home.php');
+                header('Location: ../principal/index.php');
                 exit;
             } 
             else {
