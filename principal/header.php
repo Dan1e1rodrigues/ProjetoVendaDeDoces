@@ -21,7 +21,7 @@
                         <li><a href="#" style="color: #b88601;">VAMOS AS COMPRAS</a></li>
                         <li><a href="#">NOVIDADES</a></li>
                         <li><a href="#">REDES SOCIAIS</a></li>
-                        <li><a href="#">BLOG</a></li>
+                        <li><a href="../config/logout.php">BLOG</a></li>
                         <!-- Possibilidade de adicionar mais um sem quebrar -->
                     </ul>
                 </nav>
