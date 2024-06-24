@@ -16,18 +16,18 @@
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <h1>Logo</h1>
-                <p>It's all about your dreams.</p>
+                <h1>Docinhos São José</h1>
+                <p>É tudo uma questão de seus sonhos.</p>
 
                 <!-- Número para contato -->
                 <div id="footer_social_media">
-                    <a href="#" class="footer-link" id="instagram">
+                    <a href="https://www.instagram.com/docinhosdesaojose?igsh=MWJ2ZTJ0ZDAzajdiag==" class="footer-link" id="instagram">
                         <i class="fa-brands fa-instagram"></i>
                     </a>
 
-                    <a href="#" class="footer-link" id="facebook">
+                    <!-- <a href="#" class="footer-link" id="facebook">
                         <i class="fa-brands fa-facebook-f"></i>
-                    </a>
+                    </a> -->
 
                     <!-- Dificuldade para centralizar o elemento (icone whatsApp) -->
                     <!-- <a href="#" class="footer-link" id="whatsapp">
@@ -41,19 +41,20 @@
                     <h3>Blog</h3>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Tech</a>
+                    <a href="#" class="footer-link">
+                    Tecnologia</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Adventures</a>
+                    <a href="#" class="footer-link">Delicias</a>
                 </li>
                 <li>
-                    <a href="#" class="footer-link">Music</a>
+                    <a href="#" class="footer-link">Artesanal</a>
                 </li>
             </ul>
 
             <ul class="footer-list">
                 <li>
-                    <h3>Products</h3>
+                    <h3>Produtos</h3>
                 </li>
                 <li>
                     <a href="#" class="footer-link">App</a>
@@ -61,17 +62,17 @@
                 <li>
                     <a href="#" class="footer-link">Desktop</a>
                 </li>
-                <li>
+                <!-- <li>
                     <a href="#" class="footer-link">Cloud</a>
-                </li>
+                </li> -->
             </ul>
 
             <div id="footer_subscribe">
-                <h3>Subscribe</h3>
+                <h3>Inscreva-se</h3>
 
                 <p>
-                    Enter your e-mail to get notified about
-                    our news solutions
+                Digite seu e-mail para ser notificado sobre
+                nossas soluções de notícias
                 </p>
 
                 <div id="input_group">

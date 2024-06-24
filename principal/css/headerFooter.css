@@ -138,6 +138,7 @@ footer {
 #footer_social_media .footer-link {
     display: flex;
     align-items: center;
+    text-decoration: none;
     justify-content: center;
     height: 2.5rem;
     width: 2.5rem;

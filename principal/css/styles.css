@@ -130,6 +130,11 @@ nav a {
     text-decoration: none;
 }
 
+.whatsapp-link:hover{
+    text-decoration: none;
+    color: #6bd491;
+}
+
 .fa-whatsapp {
     margin-top: 16px;
 }

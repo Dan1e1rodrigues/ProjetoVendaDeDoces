@@ -156,7 +156,7 @@
      <!-- Fim -->
 
     <!-- Zap -->
-    <a class="whatsapp-link" href="https://api.whatsapp.com/send?phone=5511994377452">
+    <a class="whatsapp-link" href="https://wa.me/qr/GALVTVKUULZPN1">
         <i class="fab fa-whatsapp"></i> 
     </a>
 
