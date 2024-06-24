@@ -39,38 +39,38 @@
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img src="images/boloDeote02.jpg" alt="Doce 1">
-                    <div class="carousel-caption">
+                    <!-- <div class="carousel-caption">
                         <h3>Bolos de Pote Morango</h3>
                         <p>O melhor de toda região de São Paulo</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item">
                     <img src="images/Fabiana-Dangelo.foto-Divulgação.jpeg.webp" alt="Doce 2">
-                    <div class="carousel-caption">
+                    <!-- <div class="carousel-caption">
                         <h3>Cones de prestígio e chocolate</h3>
                         <p>Os melhores</p>
-                    </div>
+                    </div> -->
                 </div> 
                 <div class="carousel-item">
                     <img src="images/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" alt="Doce 3">
-                    <div class="carousel-caption">
+                    <!-- <div class="carousel-caption">
                         <h3>Beijinho de Coco</h3>
                         <p>Delícia para todas as ocasiões</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item">
                     <img src="images/Torta de Limão Trufada.jpeg" alt="Doce 4">
-                    <div class="carousel-caption">
+                    <!-- <div class="carousel-caption">
                         <h3>Torta de Limão Trufada</h3>
                         <p>O sabor irresistível do limão</p>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="carousel-item">
                     <img src="images/boloDePote03.jpg" alt="Doce 5">
-                    <div class="carousel-caption">
+                    <!-- <div class="carousel-caption">
                         <h3>Brigadeiro</h3>
                         <p>O tradicional docinho brasileiro</p>
-                    </div>
+                    </div> -->
                 </div>
             </div>
     
@@ -87,6 +87,39 @@
     <section class="products">
         <article class="product">
             <img src="images/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" alt="Doce 1">
+            <h2>Doce de Chocolate</h2>
+            <p>Um doce de chocolate delicioso.</p>
+            <span class="price">R$ 5,00</span>
+            <button class="buy-button">Comprar</button>
+        </article>
+
+        <article class="product">
+            <img src="images/Torta de Limão Trufada.jpeg" alt="Doce 1">
+            <h2>Doce de Chocolate</h2>
+            <p>Um doce de chocolate delicioso.</p>
+            <span class="price">R$ 15,00</span>
+            <button class="buy-button">Comprar</button>
+        </article>
+
+        <article class="product">
+            <img src="images/boloDeote02.jpg" alt="Doce 1">
+            <h2>Doce de Chocolate</h2>
+            <p>Um doce de chocolate delicioso.</p>
+            <span class="price">R$ 5,00</span>
+            <button class="buy-button">Comprar</button>
+        </article>
+
+        <article class="product">
+            <img src="images/boloDePote03.jpg" alt="Doce 1">
+            <h2>Doce de Chocolate</h2>
+            <p>Um doce de chocolate delicioso.</p>
+            <span class="price">R$ 15,00</span>
+            <button class="buy-button">Comprar</button>
+        </article>
+
+        <!-- Reformulação dos cards, descrição (testando com 6 card ou ++) -->
+        <article class="product">
+            <img src="images/boloDeote02.jpg" alt="Doce 1">
             <h2>Doce de Chocolate</h2>
             <p>Um doce de chocolate delicioso.</p>
             <span class="price">R$ 5,00</span>

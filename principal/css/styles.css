@@ -46,19 +46,21 @@ nav a {
 
 .product {
     background-color: #fff;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-    margin: 10px;
-    max-width: 300px;
-    padding: 10px;
+    border: 4px solid #ccc;
+    border-radius: 15px 50px 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 5px;
+    max-width: 310px;
+    padding: 15px;
     text-align: center;
 }
 
 .product img {
     width: 100%;
-    height: auto;
+    height: 400px;
+    object-fit: cover;
     max-width: 300px; /* Ajuste conforme necessário */
+    border-radius: 15px 50px 30px;
 }
 
 .product h2 {
@@ -74,14 +76,18 @@ nav a {
 .product .price {
     font-size: 1.2em;
     font-weight: bold;
-    color: #FE775A;
+    color: #2e492a;
+    font-size: 25px;
     margin: 10px 0;
 }
 
 .product .buy-button {
-    background-color: #FE775A;
+    background-color: #b88601;
+    border-radius: 10px;
     border: none;
-    border-radius: 5px;
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    border-radius: 28px;
     color: #fff;
     cursor: pointer;
     padding: 10px 20px;
@@ -89,22 +95,17 @@ nav a {
 }
 
 .product .buy-button:hover {
-    background-color: #E86549;
-}
-
-/* Estilos do footer */
-footer {
-    background-color: #000000;
-    color: #fff;
-    text-align: center;
-    padding: 10px 0;
+    background-color: #2e492a;
 }
 
 /* Estilos do carrossel */
 .carousel-inner img {
     width: 100%;
     height: auto;
-    max-height: 500px; /* Ajuste conforme necessário */
+    max-height: 555px;
+    padding: 17px;
+    border-radius: 50px 50px;
+    object-fit: cover;
 }
 
 .carousel-caption {
@@ -126,6 +127,7 @@ footer {
     right: 20px;
     width: 60px;
     z-index: 1000;
+    text-decoration: none;
 }
 
 .fa-whatsapp {

@@ -29,9 +29,10 @@
                         <i class="fa-brands fa-facebook-f"></i>
                     </a>
 
-                    <a href="#" class="footer-link" id="whatsapp">
-                        <i class="fa-brands fa-whatsapp"></i>
-                    </a>
+                    <!-- Dificuldade para centralizar o elemento (icone whatsApp) -->
+                    <!-- <a href="#" class="footer-link" id="whatsapp">
+                        <i class="fab-brands fa-whatsapp"></i>
+                    </a> -->
                 </div>
             </div>
             
