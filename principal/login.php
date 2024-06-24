@@ -46,8 +46,6 @@
                         <label for="password">Senha</label>
                         <input id="password" type="password" name="password" placeholder="Digite sua senha" required>
                     </div>
-                
-                    
                 </div>
                 
                 <!-- Messagem de erro -->
