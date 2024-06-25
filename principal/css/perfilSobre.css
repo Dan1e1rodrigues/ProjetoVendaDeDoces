@@ -1,112 +1,81 @@
-*{
+/* Reset de estilos para zerar margens e preenchimentos */
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
 }
 
-html{
-    height: 500vh;
-    background-color: #000;
+/* Estilos globais */
+body {
+    background-color: #f2f2f2;
 }
 
-.container{
-    max-width: 1280px;
-    margin: auto;
-}
-
-.flex{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-header{
+/* Banner */
+.banner img {
     width: 100%;
-    padding: 60px 4%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    transition: .5s;
+    height: auto;
+    max-height: 500px;
 }
 
-header.rolagem{
-    background-color: #fff;
-    padding: 20px 4%;
-}
-
-header.rolagem a, header.rolagem i{
-    color: #FE775A;
-}
-
-header i{
-    font-size: 30px;
-    color: #fff;
-}
-
-header ul{
-    list-style-type: none;
-}
-
-header ul li{
-    display: inline-block;
-    margin: 0 40px;
-}
-
-header ul li a{
-    color: #fff;
-    text-decoration: none;
-}
-
-.btn-contato button{
-    width: 120px;
-    height: 40px;
-    border: 0;
-    background-color: #b88601;
-    color: #fff;
-    font-size: 15px;
-    cursor: pointer;
-    transition: .2s;
-    border-radius: 15px 50px 30px;
-}
-
-.banner{
-    height: 100vh;
-    background-image: url(../images/bannerCorSimplesVerdeEscuro.jpg);
-    background-position: 100% 0;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.banner h1{
-    font-size: 4em;
-}
-
-.banner h1 span{
-    color: #FFAE81;
-}
-
-/* Sobre historia card */
-.sobreHistoria{
-    color: #fff;
-}
-
-/* Estilização do Footer */
-footer {
-    background-color: #000000;
-    color: #fff;
+/* Seção Sobre Nós */
+.about-us h2, .products h2 {
     text-align: center;
-    padding: 20px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    margin-bottom: 20px;
 }
 
-footer p {
-    margin: 0;
+.about-us img {
+    width: 80%;
+    height: auto;
+    border-radius: 20px !important;
 }
-/* Fim footer */
+
+.about-us h3 {
+    margin-top: 20px;
+}
+
+/* Produtos */
+.product {
+    background-color: #fff;
+    border: 4px solid #ccc;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px 0;
+    padding: 15px;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    height: 290px;
+    object-fit: cover;
+    border-radius: 15px;
+    border-radius: 15px 50px 30px; 
+}
+
+.product .price {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FE775A;
+    margin: 10px 0;
+}
+
+.product .btn {
+    background-color: #FE775A;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+.product .btn:hover {
+    background-color: #E86549;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .about-us img {
+        margin-bottom: 20px;
+    }
+}
