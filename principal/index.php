@@ -90,7 +90,7 @@
             <h2>Doce de Chocolate</h2>
             <p>Um doce de chocolate delicioso.</p>
             <span class="price">R$ 5,00</span>
-            <button class="buy-button">Comprar</button>
+            <button class="buy-button"><a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/carrinhoDeCompras.php'); ?>">Comprar</a></button>
         </article>
 
         <article class="product">
