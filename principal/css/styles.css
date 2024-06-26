@@ -92,10 +92,11 @@ nav a {
     cursor: pointer;
     padding: 10px 20px;
     transition: background-color 0.3s;
+    text-decoration: none;
 }
 
 .product .buy-button:hover {
-    background-color: #2e492a;
+    background-color: #b9942d;
 }
 
 /* Estilos do carrossel */

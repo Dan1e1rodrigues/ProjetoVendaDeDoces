@@ -14,14 +14,14 @@
 
             <div class="flex">
 
-                <a href="#"><i class="bi bi-cart"></i></a>
+                <a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/carrinhoDecompras.php'); ?>"><i class="bi bi-cart"></i></a>
 
                 <nav>
                     <ul>
-                        <li><a href="#" style="color: #b88601;">VAMOS AS COMPRAS</a></li>
+                        <li><a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/index.php'); ?>" style="color: #b88601;">VAMOS AS COMPRAS</a></li>
                         <li><a href="#">NOVIDADES</a></li>
                         <li><a href="#">REDES SOCIAIS</a></li>
-                        <li><a href="#">MINHA HISTÓRIA</a></li>
+                        <li><a href="<?php echo htmlspecialchars('/ProjetoVendaDeDoces/principal/perfilSobre.php'); ?>">MINHA HISTÓRIA</a></li>
                         <!-- Possibilidade de adicionar mais um sem quebrar -->
                     </ul>
                 </nav>
