@@ -136,8 +136,9 @@ body {
 .continuar-compra:hover {
     background-color: #b38e2b;
 }
+/* PRECISO MELHORAR */
 /* Responsividade */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .produto {
         flex-direction: column;
         align-items: flex-start;
@@ -152,4 +153,4 @@ body {
     .quantidade {
         margin-bottom: 20px;
     }
-}
+} */
