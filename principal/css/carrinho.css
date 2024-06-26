@@ -114,12 +114,28 @@ body {
     cursor: pointer;
     font-size: 1.2em;
     transition: background-color 0.3s;
+    border-radius: 15px 50px 30px;
 }
 
 .finalizar-compra:hover {
     background-color: #256a20;
 }
 
+.continuar-compra {
+    background-color: #b88601;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: background-color 0.3s;
+    border-radius: 30px 50px 15px;
+}
+
+.continuar-compra:hover {
+    background-color: #b38e2b;
+}
 /* Responsividade */
 @media (max-width: 768px) {
     .produto {

@@ -55,6 +55,8 @@
             <div class="total">
                 <h3>Total: R$ 35,00</h3>
                 <button class="finalizar-compra">Finalizar Compra</button>
+
+                <button class="continuar-compra">Continuar Comprando</button>
             </div>
         </div>
     </main>
