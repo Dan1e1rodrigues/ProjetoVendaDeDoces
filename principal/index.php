@@ -151,9 +151,8 @@
         </article>
     </section>
 
-    <!-- Formulario -->
-     
-     <!-- Fim -->
+    <!-- Sobre historia -->
+     <!-- <?php include 'perfilSobre.php'; ?> -->
 
     <!-- Zap -->
     <a class="whatsapp-link" href="https://wa.me/qr/GALVTVKUULZPN1">
