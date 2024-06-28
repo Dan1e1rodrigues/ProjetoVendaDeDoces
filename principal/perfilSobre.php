@@ -12,10 +12,6 @@
 </head>
 <body>
 
-    <!-- Banner -->
-    <!-- <section class="banner">
-        <img src="images/banner1sobre.jpg" alt="Banner Docinhos de São José" class="img-fluid">
-    </section> -->
 
     <!-- Apresentação e Visão -->
     <section class="about-us container mt-5">
@@ -34,10 +30,10 @@
 
     <!-- Produtos -->
     <section class="products container mt-5">
-    <h2 class="linhaCa">Produtos por encomenda <strong>peça já o seu</strong></h2>
+    <h2 class="lineCard">Produtos por encomenda <strong>peça já o seu</strong></h2>
     <div class="row">
         <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card product">
+            <div class="card produtosCard">
                 <img src="images/boloDeote02.jpg" class="card-img-top" alt="Bolo de Pote">
                 <div class="card-body">
                     <h5 class="card-title">Brigadeiro</h5>
@@ -48,7 +44,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card product">
+            <div class="card produtosCard">
                 <img src="images/Beijinho de Coco - Brazilian Coconut Balls Recipe with Condensed Milk.jpeg" class="card-img-top" alt="Beijinho de Coco">
                 <div class="card-body">
                     <h5 class="card-title">Beijinho de Coco</h5>
@@ -59,7 +55,7 @@
             </div>
         </div>
         <div class="col-lg-4 col-md-6 mb-4">
-            <div class="card product">
+            <div class="card produtosCard">
                 <img src="images/Torta de Limão Trufada.jpeg" class="card-img-top" alt="Torta de Limão Trufada">
                 <div class="card-body">
                     <h5 class="card-title">Torta de Limão Trufada</h5>
