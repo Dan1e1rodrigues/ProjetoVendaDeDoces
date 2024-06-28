@@ -39,7 +39,7 @@
                     <p class="preco">R$ 5,00</p>
                 </div>
             </div>
-            <div class="produto">
+            <!-- <div class="produto">
                 <img src="images/Torta de Limão Trufada.jpeg" alt="Torta de Limão Trufada">
                 <div class="produto-info">
                     <h3>Torta de Limão Trufada</h3>
@@ -51,7 +51,7 @@
                     </div>
                     <p class="preco">R$ 15,00</p>
                 </div>
-            </div>
+            </div> -->
             <div class="total">
                 <h3>Total: R$ 35,00</h3>
                 <button class="finalizar-compra">Finalizar Compra</button>
