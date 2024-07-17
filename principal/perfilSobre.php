@@ -12,8 +12,6 @@
 </head>
 <body>
 
-
-    <!-- Apresentação e Visão -->
     <section class="about-us container mt-5">
         <div class="row">
             <div class="col-lg-6 col-md-12 mb-4">
@@ -22,8 +20,6 @@
             <div class="col-lg-6 col-md-12 d-flex flex-column justify-content-center">
                 <h2>Bem-vindo à Docinhos de São José</h2>
                 <p><strong>Desde pequena </strong> minha mãe criou eu e meus dois irmãos com a ajuda dos meus avós. Desde 11 anos de idade gostava de ajudar minha avó na cozinha, principalmente quando precisava fazer doces. Então com mais três meninas, iniciei a loja "docinho de São José", com o propósito de ir para JMJ na Coreia do Sul, mas depois de alguns meses que a loja ficou parada eu decidi continuar as produções sozinha e com o intuito de ter um trabalho, por conta própria.</p>
-                <!-- <h3>Visão</h3>
-                <p>Ser reconhecido como o melhor e-commerce de doces artesanais, oferecendo produtos inovadores e de alta qualidade que encantam e fidelizam nossos clientes.</p> -->
             </div>
         </div>
     </section>

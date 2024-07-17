@@ -43,8 +43,33 @@
 }
 
 /* Responsividade */
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
     .about-us img {
-        margin-bottom: 20px;
+        width: 55%;
+        height: auto;
+        border-radius: 20px !important;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 540px) {
+    .about-us img {
+        width: 45%;
+        height: auto;
+        border-radius: 20px !important;
+    }
+}
+
+@media (max-width: 767px) {
+    .about-us img {
+        max-width: 55%;
+        height: auto;
+    }
+    .about-us h2 {
+        font-size: 1.5rem;
+    }
+    .about-us p {
+        font-size: 1rem;
     }
 }
