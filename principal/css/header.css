@@ -1,0 +1,451 @@
+/* Estilização padrão da pagina */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* 
+- Remove a margem e o preenchimento padrão de todos os elementos.
+- Define o comportamento de dimensionamento das bordas.
+- Define a fonte padrão da página como 'Poppins'.
+*/
+
+/* Largura final da pagina */
+html {
+    height: 200vh;
+    background-color: #000000;
+}
+/* 
+- Define a altura da página como 200% da altura da janela de visualização.
+- Define a cor de fundo da página como preto.
+*/
+
+.container {
+    max-width: 1280px;
+    margin: auto;
+}
+/* 
+- Define a largura máxima do contêiner como 1280px.
+- Centraliza o contêiner horizontalmente.
+*/
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* 
+- Define um contêiner flexível.
+- Centraliza os itens verticalmente e os espaça igualmente horizontalmente.
+*/
+
+/* Estilização do header */
+
+header {
+    width: 100%;
+    padding: 20px 10%;
+    background-color: #2e492a;
+    top: 0px;
+    left: 0;
+    transition: .5s;
+} 
+/* 
+- Define a largura do cabeçalho como 100%.
+- Define o preenchimento interno do cabeçalho.
+- Define a cor de fundo do cabeçalho.
+- Posiciona o cabeçalho no topo e à esquerda da página.
+- Adiciona uma transição de 0,5 segundos.
+*/
+
+header.rolagem {
+    background-color: #fff;
+    padding: 20px 4%;
+}
+
+header.rolagem a, header.rolagem i {
+    color: #FE775A;
+}
+/* 
+- Define o estilo do cabeçalho quando a página é rolada.
+- Muda a cor de fundo e o preenchimento do cabeçalho.
+- Muda a cor dos links e ícones.
+*/
+
+header i {
+    font-size: 30px;
+    color: #fff;
+}
+/* 
+- Define o tamanho da fonte e a cor dos ícones no cabeçalho.
+*/
+
+header ul {
+    list-style-type: none;
+}
+/* 
+- Remove os marcadores de lista do cabeçalho.
+*/
+
+header ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+/* 
+- Exibe os itens da lista em linha e adiciona margem horizontal.
+*/
+
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0rem;
+    text-decoration: none;
+}
+/* 
+- Remove a margem superior e inferior das listas.
+- Remove a decoração de texto.
+*/
+
+header ul li a {
+    color: #fff;
+    text-decoration: none !important;
+}
+/* 
+- Define a cor dos links no cabeçalho.
+- Remove a decoração de texto dos links.
+*/
+
+header ul li a:hover {
+    color: #b88601;
+}
+/* 
+- Define a cor dos links ao passar o mouse sobre eles.
+*/
+
+.btn-contato button {
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #b88601;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: .2s;
+    border-radius: 15px 50px 30px;
+}
+/* 
+- Define o estilo do botão de contato.
+- Define a largura, altura, borda, cor de fundo, cor do texto, tamanho da fonte e cursor do botão.
+- Adiciona uma transição de 0,2 segundos e arredonda os cantos do botão.
+*/
+
+/* Estilização do footer */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600&display=swap');
+/* 
+- Importa a fonte 'Inter' do Google Fonts.
+*/
+
+:root {
+    --color-neutral-0: #0e0c0c;
+    --color-neutral-10: #171717;
+    --color-neutral-30: #a8a29e;
+    --color-neutral-40: #f5f5f5;
+}
+/* 
+- Define variáveis de cores para serem usadas no restante do CSS.
+*/
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    letter-spacing: 1px;
+}
+/* 
+- Aplica a fonte 'Inter' a todos os elementos.
+- Remove a margem e o preenchimento padrão de todos os elementos.
+- Define o comportamento de dimensionamento das bordas.
+- Define o espaçamento entre letras.
+*/
+
+main {
+    height: 80vh;
+}
+/* 
+- Define a altura do elemento principal como 80% da altura da janela de visualização.
+*/
+
+footer {
+    width: 100%;
+    color: var(--color-neutral-40);
+}
+/* 
+- Define a largura do rodapé como 100%.
+- Define a cor do texto do rodapé.
+*/
+
+.footer-link {
+    text-decoration: none;
+}
+/* 
+- Remove a decoração de texto dos links no rodapé.
+*/
+
+#footer_content {
+    background-color: var(--color-neutral-10);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 3rem 3.5rem;
+}
+/* 
+- Define o estilo do conteúdo do rodapé.
+- Define a cor de fundo e o layout de grade com 4 colunas.
+- Define o preenchimento interno.
+*/
+
+#footer_contacts h1 {
+    margin-bottom: 0.75rem;
+}
+/* 
+- Define a margem inferior dos títulos de contato no rodapé.
+*/
+
+#footer_social_media {
+    display: flex;
+    gap: 2rem;
+    margin-top: 1.5rem;
+}
+/* 
+- Define o estilo das mídias sociais no rodapé.
+- Define o layout flexível com um espaçamento de 2rem entre os itens.
+- Define a margem superior.
+*/
+
+#footer_social_media .footer-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    height: 2.5rem;
+    width: 2.5rem;
+    color: var(--color-neutral-40);
+    border-radius: 50%;
+    transition: all 0.4s;
+}
+/* 
+- Define o estilo dos links das mídias sociais no rodapé.
+- Define o layout flexível, centraliza os itens e remove a decoração de texto.
+- Define a altura, largura, cor do texto e arredonda os cantos dos links.
+- Adiciona uma transição de 0,4 segundos.
+*/
+
+#footer_social_media .footer-link i {
+    font-size: 1.25rem;    
+}
+/* 
+- Define o tamanho da fonte dos ícones das mídias sociais no rodapé.
+*/
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
+}
+/* 
+- Define a opacidade dos links das mídias sociais ao passar o mouse sobre eles.
+*/
+
+#instagram {
+    background: linear-gradient(#7f37c9, #ff2992, #ff9807);
+}
+/* 
+- Define a cor de fundo do ícone do Instagram.
+*/
+
+#facebook {
+    background-color: #4267b3;
+}
+/* 
+- Define a cor de fundo do ícone do Facebook.
+*/
+
+#whatsapp {
+    background-color: #25d366;
+}
+/* 
+- Define a cor de fundo do ícone do WhatsApp.
+*/
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    list-style: none;
+}
+/* 
+- Define o estilo da lista do rodapé.
+- Define o layout flexível em coluna com um espaçamento de 0,75rem entre os itens.
+- Remove os marcadores de lista.
+*/
+
+.footer-list .footer-link {
+    color: var(--color-neutral-30);
+    transition: all 0.4s;
+}
+/* 
+- Define a cor dos links na lista do rodapé.
+- Adiciona uma transição de 0,4 segundos.
+*/
+
+.footer-list .footer-link:hover {
+    color: #7f37c9;
+}
+/* 
+- Define a cor dos links na lista do rodapé ao passar o mouse sobre eles.
+*/
+
+#footer_subscribe {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+/* 
+- Define o estilo da seção de inscrição no rodapé.
+- Define o layout flexível em coluna com um espaçamento de 1,5rem entre os itens.
+*/
+
+#footer_subscribe p {
+    color: var(--color-neutral-30);
+}
+/* 
+- Define a cor do texto na seção de inscrição do rodapé.
+*/
+
+#input_group {
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-0);
+    border-radius: 4px;
+}
+/* 
+- Define o estilo do grupo de entrada no rodapé.
+- Define o layout flexível, centraliza os itens e define a cor de fundo.
+- Arredonda os cantos do grupo de entrada.
+*/
+
+#input_group input {
+    all: unset;
+    padding: 0.75rem;
+    width: 100%;
+}
+/* 
+- Remove todos os estilos padrão do campo de entrada.
+- Define o preenchimento e a largura do campo de entrada.
+*/
+
+#input_group button {
+    background-color: #7f37c9;
+    border: none;
+    color: var(--color-neutral-40);
+    padding: 0px 1.25rem;
+    font-size: 1.125rem;
+    height: 100%;
+    border-radius: 0px 4px 4px 0px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+/* 
+- Define o estilo do botão no grupo de entrada do rodapé.
+- Define a cor de fundo, remove a borda, define a cor do texto, preenchimento, tamanho da fonte e altura do botão.
+- Arredonda os cantos do botão e adiciona uma transição de 0,4 segundos.
+*/
+
+#input_group button:hover {
+    opacity: 0.8;
+}
+/* 
+- Define a opacidade do botão ao passar o mouse sobre ele.
+*/
+
+#footer_copyright {
+    display: flex;
+    justify-content: center;
+    background-color: var(--color-neutral-0);
+    font-size: 0.9rem;
+    padding: 1.5rem;
+    font-weight: 100;
+}
+/* 
+- Define o estilo da seção de direitos autorais no rodapé.
+- Define o layout flexível, centraliza os itens e define a cor de fundo.
+- Define o tamanho da fonte, o preenchimento e o peso da fonte.
+*/
+
+/* Estilização do hamburguer */
+.navbar-toggler {
+    border: none;
+}
+/* 
+- Remove a borda do botão do menu hamburguer.
+*/
+
+.navbar-toggler-icon {
+    background-image: url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css/bi-list');
+    font-size: 30px;
+    color: #fff;
+}
+/* 
+- Define a imagem de fundo e o tamanho da fonte do ícone do menu hamburguer.
+- Define a cor do ícone.
+*/
+
+.collapse.navbar-collapse {
+    justify-content: flex-end;
+}
+/* 
+- Justifica o conteúdo do menu hamburguer à direita.
+*/
+
+@media (max-width: 898px) {
+    .navbar-collapse {
+        text-align: center;
+    }
+    
+    .navbar-nav {
+        flex-direction: column;
+    }
+    
+    header ul li {
+        display: block;
+        margin: 10px 0;
+    }
+}
+/* 
+- Define estilos responsivos para telas com largura máxima de 898px.
+- Centraliza o texto do menu hamburguer.
+- Exibe os itens do menu hamburguer em coluna.
+- Define a margem dos itens do menu hamburguer.
+*/
+
+@media screen and (max-width: 768px) {
+    #footer_content {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2rem;
+    }
+}
+/* 
+- Define estilos responsivos para o conteúdo do rodapé em telas com largura máxima de 768px.
+- Define o layout de grade com 2 colunas e espaçamento de 2rem entre os itens.
+*/
+
+@media screen and (max-width: 426px) {
+    #footer_content {
+        grid-template-columns: repeat(1, 1fr);
+        padding: 3rem 2rem;
+    }
+}
+/* 
+- Define estilos responsivos para o conteúdo do rodapé em telas com largura máxima de 426px.
+- Define o layout de grade com 1 coluna e ajusta o preenchimento.
+*/
+
+/* Fim footer */

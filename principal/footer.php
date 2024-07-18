@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
     <title>Um pouco da Minha Historia</title>
-    <link rel="stylesheet" href="./css/headerFooter.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
@@ -16,7 +16,7 @@
     <footer>
         <div id="footer_content">
             <div id="footer_contacts">
-                <h1>Docinhos São José</h1>
+                <h1>São José</h1>
                 <p>É tudo uma questão de seus sonhos.</p>
 
                 <!-- Número para contato -->
